@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        }
+        body {
+        background: #cfe998;
+        }
+        .actionForm {
+        max-width: 600px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+        }
+        .actionForm input[type="text"],
+        .actionForm input[type="password"]
+        {
+        padding: 11px;
+        border: 1px solid #eee;
+        border-radius: 5px;
+        width: 100%;
+        }
+        .actionForm button[type="submit"] {
+        padding: 10px;
+        background:#86B817;
+        color: #fff;
+        border-radius: 5px;
+        width: 104%;
+        border: 0;
+        outline: 0;
+        }
+        h1{
+        max-width: 600px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+        color:#fff;
+        }
+        h2{
+        max-width: 600px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 50px;
+        color:#fff; 
+        }
+    .input-icon {
+    position: relative;
+    left: 0;
+}
+    .input-icon>i {
+    color: #ccc;
+    position: absolute;
+    margin: 11px 2px 4px 10px;
+    z-index: 3;
+    width: 16px;
+    font-size: 16px;
+    text-align: center;
+    }
+        </style>
+</head>
+<body>
+    <h1>Quên Mật Khẩu?</h1>
+    <h2>Vui lòng điền địa chỉ Email/Điện thoại, sẽ gửi hướng dẫn thay đổi mật khẩu đến địa chỉ Email/Điện thoại của bạn.</h2>
+    <form action="text" method="post" class="actionForm"> 
+    <div class="input-icon"><i class="fa-solid fa-envelope"></i>
+        <input type="text" placeholder="     Email/Số điện thoại" name="    yourname"/><br><br>
+    </div>
+        <button type="submit">Gửi mật khẩu mới</button> 
+        </form>
+</body>
+</html>
